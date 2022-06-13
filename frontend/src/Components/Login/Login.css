@@ -1,0 +1,69 @@
+.login{
+ font-family: "Roboto";
+ background-image: linear-gradient(to right,#ebe09d,#8571cf);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ padding: 2vmax;
+}
+
+.loginForm{
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginForm > input{
+    padding: 1vmax 2vmax;
+    width: 60%;
+    margin: 2vmax ;
+    border-radius: 4rem;
+    text-align: left;
+    font:100 1.2rem "Roboto" ,sans-serif;
+    
+    outline: none;
+
+}
+
+.loginForm > a{
+    align-self: flex-end;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 2vmax;
+    font: "Roboto" sans-serif;
+    color: rgba(0, 0, 0, 0.452);
+}
+
+@media screen and (max-width:600px){
+    
+     
+
+   .loginForm{
+
+       width: 95%;
+
+   }
+
+   .loginForm > input{
+       
+       padding: 4vw 8vw;
+       font:100 "Roboto" 1.2rem ;
+       margin:4vw;
+   }
+
+   .heading{
+       font-size: 10px;
+   }
+       
+   .loginForm > a{
+       align-self: center;
+   }
+}
+
+
+
