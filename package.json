@@ -4,7 +4,7 @@
   "description": "\"The social media app\"",
   "main": "server.js",
   "scripts": {
-    "build":"npm install && cd ../frontend && npm install && npm run build",
+    "build":"npm install && cd frontend && npm install && npm run build",
     "start":"node backend/server.js"
   },
   "author": "\"Harsh Verma\"",
