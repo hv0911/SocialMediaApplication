@@ -94,9 +94,9 @@ const Register = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
 
-        <Link to='/'><Typography>Already sing Up ?</Typography></Link>
+        <Link to='/'><Typography>Already sign Up ?</Typography></Link>
 
-        <Button disabled={loading} type='submit'> Sing up</Button>
+        <Button disabled={loading} type='submit'> Sign up</Button>
 
 
       </form>

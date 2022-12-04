@@ -69,7 +69,7 @@ exports.login = async (req, res) => {
         let user = await User.findOne({ email }).select("+password").populate("posts followers following")
 
         if (!user) {
-            res.status(400).json({
+          return res.status(400).json({
                 success: false,
                 message: "User does not exits"
             })
@@ -100,6 +100,7 @@ exports.login = async (req, res) => {
             success: false,
             message: error.message
         })
+       
     }
 };
 

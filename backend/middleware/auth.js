@@ -8,7 +8,7 @@ exports.isAuthenticate = async (req,res,next)=>{
         const { token } = req.cookies;
      
         if(!token){
-            res.status(400).json({
+          return  res.status(400).json({
                 success:false,
                 message:"Please login first"
             })
@@ -32,6 +32,7 @@ exports.isAuthenticate = async (req,res,next)=>{
             success:false,
             message:error.message
         });
+        // console.log(error);
     }
  
    
