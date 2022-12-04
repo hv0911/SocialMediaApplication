@@ -4,12 +4,8 @@
   "description": "\"The social media app\"",
   "main": "server.js",
   "scripts": {
-    "start":"node backend/server.js",
-    "server":"nodemon backend/server.js",
-    "frontend":"npm start --prefix frontend",
-    "frontendinstall":"npm install --prefix frontend",
-    "dev": "concurrently \"npm run server\" \"npm run frontend\"",
-    "render-postbuild":"NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
+    "build":"npm install && cd ../frontend && npm install && npm run build",
+    "start":"node backend/server.js"
   },
   "author": "\"Harsh Verma\"",
   "license": "ISC",
