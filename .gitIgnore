@@ -19,4 +19,4 @@
 /frontend/.env.development.local
 /frontend/.env.test.local
 
-/package-lock.json
+package-lock.json
