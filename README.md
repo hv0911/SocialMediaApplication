@@ -1,8 +1,17 @@
 # SocialMediaApplication
-This is a MERN stack Social Media App Made by Harsh Veerma
+This is a MERN stack project Made by Harsh Verma
 
-Its a full stack project(MERN Stack) where you can register , login , make your profile follow anoter user,create post
-add caption to your post, delete post and much more.
+Its a full stack webApplication( a kind of social media application)  where you can register , login , make your profile follow anoter user,add post (images) ,
+add caption to your post, delete post and reset password search user 
+
+Tech stack -
+for frontend : React.js & Redux 
+for backend : Node.js Express.js mongoose(ORM)
+database : mongodb
 
 live preview -
-https://social-media-webapplication.herokuapp.com/register
+https://socialapp-gwnf.onrender.com
+
+for test: login with
+email : hv101218@gmail.com,
+password : hv101218
